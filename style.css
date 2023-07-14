@@ -9,6 +9,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
+    padding: 0 25%;
 }
 
 .left-header,
@@ -16,6 +17,55 @@ body {
     display: flex;
     align-items: center;
     gap: 16px;
+}
+
+.hero-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 25%;
+    padding: 0 25%;
+}
+
+.hero-main-left,
+.hero-main-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-main-left {
+    width: 250px;
+}
+
+.hero-main-right {
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    background-color: #696969;
+    color: white;
+}
+
+.hero-secondary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    margin: 16px;
+    width: 100px;
+}
+
+.card-img-placeholder {
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    height: 100px;
 }
 
 .content {
@@ -52,4 +102,69 @@ a {
 .header-links {
     display: flex;
     gap: 16px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    padding: 100px 30% 75px 30%;
+}
+
+.quote-author {
+    align-self: flex-end;
+}
+
+.quote-text,
+.quote-author {
+    font-size: 26px;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-author {
+    font-weight: bold;
+}
+
+.hero-main {
+    display: flex;
+}
+
+.call-to-action {
+    display: flex;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 40px;
+    justify-content: center;
+    column-gap: 100px;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.call-to-action-left {
+    margin-left: 10%;
+}
+
+.call-to-action-header {
+    margin: 0;
+}
+
+.signup-btn-lower {
+    margin-right: 10%;
+    width: 125px;
+    background-color: transparent;
+    color: #E5E7EB;
+    border: 2px solid white;
+    border-radius: 7.5px;
+}
+
+.signup-btn {
+    width: 100px;
+    height: 35px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 2px solid white;
+    border-radius: 7.5px;
 }
